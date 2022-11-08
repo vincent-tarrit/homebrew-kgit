@@ -2,8 +2,8 @@
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Kgit < Formula
-  desc ""
-  homepage ""
+  desc "kGit init and deploy repository on hosting of Infomaniak."
+  homepage "https://github.com/vincent-tarrit/kGit"
   url "https://github.com/vincent-tarrit/kGit/archive/refs/tags/v0.0.1.tar.gz"
   sha256 "931de9012667365a47560d5f89851bb9495ac8c059918102fc4b0e2a79e062c9"
   license ""
