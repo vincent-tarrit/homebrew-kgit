@@ -3,7 +3,7 @@ class Kgit < Formula
   homepage "https://github.com/vincent-tarrit/kGit"
   url "https://github.com/vincent-tarrit/kGit/blob/main/build/kgit.phar?raw=true"
   version "0.0.1"
-  sha256 "931de9012667365a47560d5f89851bb9495ac8c059918102fc4b0e2a79e062c9"
+  sha256 "7c179e6c68ab2fea361107fa059f4477d2150fbec0ee504da59432eb21fc5817"
   license "MIT"
 
   def install
