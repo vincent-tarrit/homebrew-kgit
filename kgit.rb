@@ -19,7 +19,7 @@ class Kgit < Formula
  # end
 
 def install    
-    bin.install "gitstart"    
+    bin.install "kgit"    
     bin.install Dir["lib"]    
     bin.install Dir["files"]
     prefix.install "README.md"
