@@ -6,7 +6,7 @@ class Kgit < Formula
   homepage "https://github.com/vincent-tarrit/kGit"
   url "https://github.com/vincent-tarrit/kGit/archive/refs/tags/v0.0.1.tar.gz"
   sha256 "931de9012667365a47560d5f89851bb9495ac8c059918102fc4b0e2a79e062c9"
-  license ""
+  license "MIT"
 
   # depends_on "cmake" => :build
 
