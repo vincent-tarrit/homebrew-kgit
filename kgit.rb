@@ -7,7 +7,7 @@ class Kgit < Formula
   license "MIT"
 
   def install
-    bin.install "kgit.phar" => "kgit"
+    bin.install "kgit-v0.0.4.phar" => "kgit"
   end
   test do
     system "false"
