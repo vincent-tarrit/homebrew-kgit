@@ -18,9 +18,13 @@ class Kgit < Formula
     # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
  # end
 
-  def install
-      bin.install 'kgit'
-  end
+def install    
+    bin.install "gitstart"    
+    bin.install Dir["lib"]    
+    bin.install Dir["files"]
+    prefix.install "README.md"
+    prefix.install "LICENSE"  
+end
   
   test do
     # `test do` will create, run in and delete a temporary directory.
